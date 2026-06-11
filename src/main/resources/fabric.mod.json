@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraswap",
+  "version": "${version}",
+  "name": "Elytra Swap",
+  "description": "Swap elytra/chestplate with a single keybind",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.elytraswap.ElytraSwapMod"
+    ],
+    "client": [
+      "com.elytraswap.ElytraSwapClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
